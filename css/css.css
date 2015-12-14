@@ -232,7 +232,7 @@ section#main p{
 	margin: auto;
 	font-weight: 700;
 }
-@media (max-width: 450px){
+@media (max-width: 540px){
 	#main .form-container{
 		width: auto;
 	}
