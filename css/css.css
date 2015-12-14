@@ -232,6 +232,11 @@ section#main p{
 	margin: auto;
 	font-weight: 700;
 }
+@media (max-width: 450px){
+	#main .form-container{
+		width: auto;
+	}
+}
 @media (min-width: 992px){
 	#main .form-container {
 		float: right;
