@@ -132,6 +132,7 @@ textarea{
 	width: 79px;
 	height: 27px;
 	background-image: url(../img/logo.png);
+	background-size: cover;
 	margin: 7px;
     margin-left: 0;
 }
@@ -226,7 +227,7 @@ section#main aside{
 .content-logo{
 	width: 14.58em;height: 5em;
 	margin-top: -2.5em;
-	background-image: url(../img/content-logo.png);`
+	background-image: url(../img/content-logo.png);
 	background-size: cover;
 }
 .short-heading-devider{
