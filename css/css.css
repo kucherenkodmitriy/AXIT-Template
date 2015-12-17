@@ -772,11 +772,8 @@ footer{
 footer ul{
     padding: 0;
     margin: auto;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,0);
-    display: inline-flex;
-    display: -webkit-inline-flex;
+    position: relative; /*fix for centering ul*/
+    left: 50%;/*fix for centering ul*/
 }
 footer ul > li{
 	float: left;
@@ -791,4 +788,9 @@ footer ul a{
 }
 footer ul a:hover{
 	color: white;
+}
+footer .social-links{
+	float: right;/*fix for centering ul*/
+    position: relative;/*fix for centering ul*/
+    left: -50%;/*fix for centering ul*/
 }
