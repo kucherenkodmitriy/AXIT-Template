@@ -346,11 +346,11 @@ section#social .icons{
 section#social i{
 		font-size: 3em;
 	}
-@media (min-width: 1200px){
+/*@media (min-width: 1200px){
 	section#social i{
 		font-size: 3.73em;
 	}
-}
+}*/
 section#social a{
 	color: #ccc;
 }
@@ -537,6 +537,9 @@ section#textWithImage i{
 section#textWithImage img{
 	width: 100%;
 }
+section#textWithImage .col-md-6:last-child > .vertical-middle{
+	right: 0;
+}
 @media (max-width: 991px){
 	section#textWithImage .col-md-6:last-child{
     	text-align: center;
@@ -595,6 +598,12 @@ section#threeColumns2 .threeColumns{
 	padding-right: 7em;
 	top: 3em;
 	padding-bottom: 3em;
+}
+@media (max-width: 991px){
+	section#threeColumns2 .threeColumns{
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 section#threeColumns2 .threeColumns div{
 	text-align: center;
@@ -766,6 +775,8 @@ footer ul{
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
+    display: inline-flex;
+    display: -webkit-inline-flex;
 }
 footer ul > li{
 	float: left;
